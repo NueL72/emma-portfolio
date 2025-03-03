@@ -372,7 +372,7 @@
 
         </div>
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+        <form action="contact.php" method="POST" class="php-email-form">
           <div class="row gy-4">
 
             <div class="col-md-6">
@@ -391,12 +391,8 @@
               <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
             </div>
 
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
 
-              <button type="submit">Send Message</button>
+              <button type="submit" name="sendsms">Send Message</button>
             </div>
 
           </div>
