@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -396,7 +397,9 @@
             </div>
 
           </div>
-        </form><!-- End Contact Form -->
+        </form>
+        
+        <!-- End Contact Form -->
 
       </div>
 
