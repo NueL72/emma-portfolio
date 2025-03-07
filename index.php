@@ -53,7 +53,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#book-a-table">Book a Table</a>
+      <a class="btn-getstarted" href="#" style="font-weight: bolde;font-size:larger;">Welcome</a>
 
     </div>
   </header>
@@ -68,10 +68,10 @@
           <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">We are the<br>Moving Tech Industry</h1>
             <p data-aos="fade-up" data-aos-delay="100">Empowering Innovation: Expert Solutions in IOT systems Web and Mobile App Development, Cybersecurity, Mobile & Computer Maintenance..</p>
-            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <!-- <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
               <a href="#" class="btn-get-started">Booka a Table</a>
               <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-            </div>
+            </div> this has to be edited later after been hosted with the sweetalert of success message on the top right corner -->
           </div>
           <div class="col-lg-7 order-1 order-lg-2 hero-img" data-aos="zoom-out">
             <img src="assets/img/nuelbanner2.jpg" class="img-fluid animated" alt="">
