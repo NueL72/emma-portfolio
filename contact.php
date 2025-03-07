@@ -8,9 +8,6 @@ $DB = "emmaportfolio";
 $conn = mysqli_connect($HOST, $USER, $PSW, $DB);
 
 
-session_start();
-
-
 if(isset($_POST['sendsms'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -26,25 +23,10 @@ if(isset($_POST['sendsms'])){
     // $_SESSION['success'] = $query;
    
     
-    if($query){    
-              echo "
-                 <script>
-                  const Toast = Swal.mixin({
-                    toast: true,
-                        position: 'top-end',
-                        showConfirmButton: false,
-                        timer: 3000,
-                        timerProgressBar: true,
-                        didOpen: (toast) => {
-                        toast.onmouseenter = Swal.stopTimer;
-                        toast.onmouseleave = Swal.resumeTimer;}
-                      });
-                      Toast.fire({
-                      icon: 'success',
-                      title: 'Signed in successfully'
-                  </script>
-                ";
-              }
-            }
+    if($querye=true){
+      
+      header("location:./index.php");
+  }
+ }
 
 ?>
